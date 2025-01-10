@@ -42,7 +42,7 @@ class StartWindow(QtWidgets.QMainWindow):
         self.widget.setLayout(self.main_layout)
         self.setCentralWidget(self.widget)
         self.resize(700,700)
-        self.setWindowTitle("🇨🇭🧀 Calcul de cheksum pour la Cinémathèque suisse 🧀🇨🇭")
+        self.setWindowTitle("🇨🇭🧀 Calcul de checksum pour la Cinémathèque suisse 🧀🇨🇭")
 
     def print_to_console(self,text):
         self.console.appendPlainText(f"{text}\n")
